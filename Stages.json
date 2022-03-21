@@ -2,36 +2,45 @@
     "Stage0": 
         {
         "Text": "Place holder 0",
-        "ChildStages": ["Stage1","Stage2"]
+        "Option_ChildStage": [
+            {"Option":"Option 1", "ChildStage":"Stage1"},
+            {"Option":"Option 2", "ChildStage":"Stage2"}
+            ]
         },
     "Stage1": 
         {
         "Text": "Place holder 1",
-        "ChildStages": ["Stage3","Stage4"]
+        "Option_ChildStage": [
+            {"Option":"Option 1", "ChildStage":"Stage3"},
+            {"Option":"Option 2", "ChildStage":"Stage4"}
+            ]
         },
     "Stage2":
         {
         "Text": "Place holder 2",
-        "ChildStages": ["Stage5", "Stage6"]
+        "Option_ChildStage": [
+            {"Option":"Option 1", "ChildStage":"Stage5"},
+            {"Option":"Option 2", "ChildStage":"Stage6"}
+            ]
         },
     "Stage3":
         {
         "Text": "Place holder 3",
-        "ChildStages": []
+        "Option_ChildStage": []
         },
     "Stage4":
         {
         "Text": "Place holder 4",
-        "ChildStages": []
+        "Option_ChildStage": []
         },
     "Stage5":
         {
         "Text": "Place holder 5",
-        "ChildStages": []
+        "Option_ChildStage": []
     },
     "Stage6":
         {
         "Text": "Place holder 6",
-        "ChildStages": []
+        "Option_ChildStage": []
         }
 }
