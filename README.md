@@ -1,4 +1,4 @@
-# Text-adventure
+# Python OOP for text adventure game
 This is an outline for a simple text based adventure game using Python Object Oriented Programming
 ## Design:
 * Each stage of the story is an object with these attributes:
