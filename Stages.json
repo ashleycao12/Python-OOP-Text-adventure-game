@@ -1,0 +1,37 @@
+{
+    "Stage0": 
+        {
+        "Text": "Place holder 0",
+        "ChildStages": ["Stage1","Stage2"]
+        },
+    "Stage1": 
+        {
+        "Text": "Place holder 1",
+        "ChildStages": ["Stage3","Stage4"]
+        },
+    "Stage2":
+        {
+        "Text": "Place holder 2",
+        "ChildStages": ["Stage5", "Stage6"]
+        },
+    "Stage3":
+        {
+        "Text": "Place holder 3",
+        "ChildStages": []
+        },
+    "Stage4":
+        {
+        "Text": "Place holder 4",
+        "ChildStages": []
+        },
+    "Stage5":
+        {
+        "Text": "Place holder 5",
+        "ChildStages": []
+    },
+    "Stage6":
+        {
+        "Text": "Place holder 6",
+        "ChildStages": []
+        }
+}
